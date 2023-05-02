@@ -1,0 +1,37 @@
+.services__inner {
+  display: flex;
+  list-style-type: none;
+}
+
+.services__item {
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+.services__item-inner {
+}
+
+img {
+  object-fit: cover;
+  height: 50%;
+  transform: scaleX(1.6);
+  background: linear-gradient(180deg, rgba(248, 248, 248, 0) 28.65%, #f8f8f8 65.47%, #f8f8f8 100%);
+}
+
+.services__item--big {
+  border-radius: 152.5px;
+  height: 515px;
+  width: 327px;
+}
+
+h3 {
+  color: black;
+}
+
+p {
+  color: black;
+}
